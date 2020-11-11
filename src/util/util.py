@@ -7,5 +7,5 @@ def preprocess(images, req_dims=(224,224)):
         provides feature maps to the single person parsing model.
     '''
 
-    return [cv2.resize(img/255.0, req_dims) for img in images]
+    return [cv2.resize(img, req_dims) for img in images]
 
