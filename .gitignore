@@ -1,0 +1,8 @@
+res/train/img/*.png
+res/train/seg/*.png
+res/train/img/*.jpg
+res/train/seg/*.jpg
+res/test/img/*.png
+res/test/seg/*.png
+res/test/img/*.jpg
+res/test/seg/*.jpg
