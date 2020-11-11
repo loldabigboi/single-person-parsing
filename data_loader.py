@@ -19,6 +19,9 @@ class DataLoader:
         img_dict = {}
         for i, file_name in enumerate(file_names):
 
+            if (i == n-1):  # reached required number of read images
+                break
+
             if (os.path.splitext(file_name) not in (".jpg", ".png")):  # only read jpg & png images
                 print(f'Skipping image {file_name} as its extension is not supported as an image file format.')
             else:
